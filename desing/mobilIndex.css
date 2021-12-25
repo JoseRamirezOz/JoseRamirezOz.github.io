@@ -31,6 +31,7 @@ body img{
 /*---------------------------------------------------------
 HEADER - MOBIL
 ----------------------------------------------------------*/
+
 #NavBar-Principal{
     background:var(--main-color);
     padding:2rem 1rem;
@@ -106,7 +107,6 @@ HEADER - MOBIL
 SECCION
 ----------------------------------------------------------*/
 .principal{
-    padding:1rem;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -138,8 +138,13 @@ SECCION
 
 .containerPrincipalStack div{
     background:var(--main-color);
-    margin:1rem;
+    margin:1rem .3rem;
     font-size:2rem;
+    width:12rem;
+}
+
+.containerPrincipalStack .card-body{
+    width:auto;
 }
 
 
@@ -155,10 +160,12 @@ footer{
 .contactFooter{
     display:flex;
     flex-direction:row;
+    justify-content:center;
+    align-items:center;
 }
 
 .contactFooter p{
-    margin-right:3rem;
+    margin-right:0rem;
 }
 
 .contactFooter img{

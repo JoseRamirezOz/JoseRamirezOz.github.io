@@ -133,7 +133,8 @@ SECCION
 }
 
 .imagenCert div{
-    height:40rem;
+    height:30rem;
+    margin:0 auto;
 }
 
 .imagenCert img{
@@ -154,10 +155,12 @@ footer{
 .contactFooter{
     display:flex;
     flex-direction:row;
+    justify-content:center;
+    align-items:center;
 }
 
 .contactFooter p{
-    margin-right:3rem;
+    margin-right:0rem;
 }
 
 .contactFooter img{

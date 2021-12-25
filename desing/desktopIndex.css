@@ -177,11 +177,13 @@ header{
 
 .containerPrincipalStack div{
     margin:2rem;
+    width:20rem;
     background:var(--main-color);
 }
 
 .containerPrincipalStack .card-body{
     height:1rem;
+    width:80%;
     display:flex;
     flex-direction:column;
     align-items:center;
