@@ -120,6 +120,11 @@ SECCION
     margin-bottom:2rem;
 }
 
+.container--Main-Proyects .card-text{
+    text-align:left;
+    margin-bottom:2rem;
+}
+
 .containerProyects img{
     height:20rem;
     object-fit:cover;
