@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --main-color:#030318;
+    --backgrond-color:#0a0a23;
+    --targets:#008EFF;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    width:100%;
+    margin:0%;
+    font-family: 'Open Sans', sans-serif;
+    background:var(--backgrond-color);
+    color:#f5f5f5;
+    overflow-x:hidden;
+}
+
+body img{
+    width:5rem;
+    height:5rem;
+}
+
+/*---------------------------------------------------------
+BARRA DE NAVEGACION - D E S K T O P
+----------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------
+BARRA DE NAVEGACION - M O B I L E
+----------------------------------------------------------*/
+@media (max-width:800px) {
+nav {
+    background:green;
+}
+
+
+
+
+}
+        
+
+/*---------------------------------------------------------
+FOOTER COMPONENT - D E S K T O P
+----------------------------------------------------------*/
+@media (min-width:800px) {
+
+footer{
+    font-size:2rem;
+    height:auto;
+    background:var(--main-color);
+    color:#f5f5f5;
+}
+
+.titleFooter{
+    text-align:center;
+
+}
+
+.contactFooter{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding:0rem 3rem;
+    height:10rem;
+}
+
+.contactFooter p{
+    margin-right:4rem;
+}
+
+.contactFooter img{
+    width:5rem;
+    height:5rem;
+}
+    
+
+}
+
+/*---------------------------------------------------------
+FOOTER COMPONENT - M O B I L E
+----------------------------------------------------------*/
+@media (max-width:800px) {
+
+footer{
+    background:var(--main-color);
+    padding:1rem;
+    font-size:2rem;
+}
+
+.contactFooter{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.contactFooter p{
+    margin-right:0rem;
+}
+
+
+.contactFooter img{
+    width:5rem;
+    height:5rem;
+} 
+    
+}
+    
+
