@@ -49,6 +49,9 @@ HEADER
  font-size:2rem;
 }
 
+#NavBar-Principal a:hover{
+    border-bottom:.3rem solid #00F8E6;
+}
 
 #navbarText{
     grid-column:-1;

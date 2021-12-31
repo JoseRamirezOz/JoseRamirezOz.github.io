@@ -23,9 +23,11 @@ body{
     overflow-x:hidden;
 }
 
+
 /*---------------------------------------------------------
-HEADER
+BARRA DE NAVEGACION
 ----------------------------------------------------------*/
+
 #NavBar-Principal{
     background:var(--main-color);
     height:8rem;
@@ -47,10 +49,6 @@ HEADER
 #NavBar-Principal a{
  color:#f5f5f5;
  font-size:2rem;
-}
-
-#NavBar-Principal a:hover{
-    border-bottom:.3rem solid #00F8E6;
 }
 
 
@@ -88,59 +86,6 @@ HEADER
 }
 
 
-
-/*---------------------------------------------------------
- SECTION - CERTIFICACIONES
-----------------------------------------------------------*/
-.principalCert{
-    background:none;
-    padding:2rem;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    align-items:center;
-}
-
-.infoCert{
-    background:none;
-    height:30rem;
-    padding:2rem;
-    width:50%;
-}
-
-.infoCert h1{
-    text-align:center;
-    font-size:3rem;
-}
-
-.frase{
-    text-align:right;
-    font-size:2rem;
-}
-
-.cPlatzi{
-    font-size:2.8rem;
-    margin-top:3rem;
-}
-
-.postC{
-    font-size:1.8rem;
-}
-
-.imagenCert{
-    background:#f5f5f5;
-    width:40rem;
-}
-
-.imagenCert div{
-    width:100%;
-    height:100%;
-}
-
-
-
-
-
 /*---------------------------------------------------------
 FOOTER COMPONENT
 ----------------------------------------------------------*/
@@ -148,10 +93,12 @@ footer{
     font-size:2rem;
     height:auto;
     background:var(--main-color);
+    color:#f5f5f5;
 }
 
 .titleFooter{
     text-align:center;
+
 }
 
 .contactFooter{
