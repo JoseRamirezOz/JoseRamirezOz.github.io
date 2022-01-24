@@ -8,6 +8,7 @@
     --main-color:#030318;
     --backgrond-color:#0a0a23;
     --targets:#008EFF;
+    --relevante:#00F8E6;
 }
 
 html{
@@ -31,6 +32,20 @@ body img{
 /*---------------------------------------------------------
 HEADER - MOBIL
 ----------------------------------------------------------*/
+h1 {
+    color:var(--relevante);
+    font-weight: bold;
+    width:80vw;
+    margin:1rem auto;
+    text-align:center;
+}
+
+#emojiStar{
+    width:1.5rem;
+    height:1.5rem;
+    margin-bottom:.5rem;
+}
+
 #NavBar-Principal{
     background:var(--main-color);
     padding:2rem 1rem;
