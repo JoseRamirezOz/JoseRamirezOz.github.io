@@ -213,7 +213,7 @@ FOOTER COMPONENT
 footer{
     font-size:2rem;
     height:auto;
-    background:var(--targets);
+    background:var(--main-color);
 }
 
 .titleFooter{
