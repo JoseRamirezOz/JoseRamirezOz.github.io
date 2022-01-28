@@ -240,6 +240,7 @@ Querys para celulares
         color: #fff;
         margin:2rem 2rem;
         text-align:center;
+<<<<<<< HEAD
        /*****Letras color NEON 
         text-shadow:
             0 0 5px rgba(0,178,255,1),
@@ -252,6 +253,8 @@ Querys para celulares
             0 0 140px rgba(38,104,127,1),
             0 0 180px rgba(38,104,127,1);
         */
+=======
+>>>>>>> development
     }
     
     #emojiStar{
