@@ -9,23 +9,26 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- CSS Responsive -->
-    <link rel="stylesheet" media="(min-width:800px)" href="/desing/desktopIndex.css"/>
-    <link rel="stylesheet" media="(max-width:800px)" href="/desing/mobilIndex.css"/>
+    <link rel="stylesheet" href="/desing/dskBlog.css"/>
     <!-- GoogleFonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-</head>
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+  </head>
 <body>
 <!----------------------------------------------------------
 H E A D E R | CABECERA PAGINA INDEX
 ------------------------------------------------------------->
-    <header class="cabecera">
+<header class="cabecera">
 <!-- N A V | Bootstrap -->
         <nav class="navbar navbar-expand-lg navbar-light" >
             <div class="container-fluid" id="NavBar-Principal">
               <a class="navbar-brand" href="/index.html">
-                  <img src="images/sello.jpg" alt="LogoSoftJins">
+                  <img src="/images/sello.jpg" alt="LogoSoftJins">
                   JoseRamirezOz
               </a>
               <button class="navbar-toggler" id="botonNav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +37,7 @@ H E A D E R | CABECERA PAGINA INDEX
               <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="Ul-link--nav" >
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Perfil</a>
+                    <a class="nav-link active" aria-current="page" href="/index.html">Perfil</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/addPages/certificaciones.html">Certificaciones</a>
@@ -43,7 +46,7 @@ H E A D E R | CABECERA PAGINA INDEX
                     <a class="nav-link" href="/addPages/proyectos.html">Proyectos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/addPages/blog.html">NotasHack</a>
+                    <a class="nav-link" href="/addPages/blog.html">NotasDev <img src="https://cdn-icons.flaticon.com/png/512/924/premium/924915.png?token=exp=1643315815~hmac=3e777296d8600386fe3b7b2ad725a66c"  id="notasdev" alt=""></a>
                   </li>
                 </ul>
                 <!-- <span class="navbar-text">
@@ -52,99 +55,37 @@ H E A D E R | CABECERA PAGINA INDEX
               </div>
             </div>
           </nav>
-
-<!-- Informacion bloque cabecera index -->
- <aside class="hero">
-    <div class="cabecera-block--index">
-
-        <div class="presentacion">
-            <picture>
-                <img src="images/perfil.jpg" alt="FotoDePerfil"  class="fotoDePerfil">
-            </picture>
-  
-            <p class="nombre"><b>José Alberto Ramírez</b></p>
-            <p class="profesion">Prospecto desarrollador de alto rendimiento</p>          
-        </div>
-      </div>
-           
-  <!-- N A V  | P R I N C I P A L - Botstrap -->
-      <nav class="redesSociales">
-          <ul>
-              <li><a href="https://www.facebook.com/softjins"><img src="images/facebook.png" alt="Facebook"></a></li>
-              <li><a href="https://twitter.com/JoseRamirezOz"><img src="images/twitter.png" alt="Twitter"></a></li>
-              <!-- <li><a href=""><img src="/images/youtube.png" alt="Youtube"></a></li> -->
-              <li><a href="https://github.com/JoseRamirezOz"><img src="images/github.ico" alt="GitHub"></a></li>
-              <li><a href="https://www.linkedin.com/in/jos%C3%A9-alberto-ram%C3%ADrez-quiroz-479275186/"><img src="images/linkedin.ico" alt="LinkedIn"></a></li>
-          </ul>
-      </nav>
- </aside>
-
-    </header>
+</header>
 
     
 <!----------------------------------------------------------
   M A I N | STACK DE TECNOLOGIAS
 ------------------------------------------------------------->
 <section class="principal">
-    <h1>Stack de Tecnologias</h1>
-
-    <p class="bio">Soy un estudiante autonomo, creo en la educación como
-        medio principal de crecimiento personal y profesional
-        dedico mucho de mi tiempo aprendiendo nuevas tecnologias
-        actualmente domino...</p>
-
-    <aside class="containerPrincipalStack">
-        <div class="card">
-            <img src="/images/techs/boot.png" class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text">Bootstrap</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="/images/techs/css.png" class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text">CSS3</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="/images/techs/git.png" class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text">Git</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="/images/techs/github.png" class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text">GitHub</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="/images/techs/html.png" class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text">HTML5</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="/images/techs/js.png" class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text">JavaScript</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="/images/techs/stylus.png" class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text">Stylus</p>
-            </div>
-        </div>
-
+    <h1>Welcome to my Space</h1>
+    <p class="descBienvenida">¿Que encontraras aquí? 
+      Quiero compartir un poco de lo que hago
+      durante mi desarrollo profesional, eventualmente
+      se mejorara para una mejor experiencia 
+      por ahora estare compartiendo de mis temas de 
+      interes como Lenguajes de Programación,
+      Frameworks, InfoSec, Recomendaciones de LearningPath etc...
+    </p>
+    <aside class="notasJs">
+      <picture>
+        <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd686371d-6aea-401c-9437-ef2c9ef3fc99%2Fjs.ico?table=block&id=5ebdba44-a2d1-4d05-8785-4811247e526b&spaceId=d8a8a5bd-8176-4fc4-80f9-d120bd651b43&userId=9352d0fb-af4c-4db0-b505-e0c6312c3ccf&cache=v2" alt="">
+      </picture>
+      <p class="jsInfo">JavaScript me a enamorado, todos 
+        los dias me dedico a aprender un poco mas sobre este 
+        lenguaje, a continuacion dejo el acceso publico
+        a mis notas de la plataforma Notion estas estaran 
+        actualizadas todos los dias, espero si estas
+        leyendo esto te puedan servir de algo durante
+        tu proceso de aprendizaje o cunsulta de algun
+        post que deje en mis redes sociales
+        <a href="https://bronze-risk-958.notion.site/JavaScript-5ebdba44a2d14d0587854811247e526b" class="btnNotion" target="_blank">Mi espacio en Notion <img src="https://cdn-icons-png.flaticon.com/512/21/21127.png" alt="" ></a>
+      </p>
     </aside>
-
 </section>
 
 
@@ -160,7 +101,7 @@ H E A D E R | CABECERA PAGINA INDEX
                 o tengamos una charla y 
                 colaboremos en algo</p>
            <picture>
-                <a href="https://wa.me/+525561506827?text=Hola%20mi%20nombre%20es:%20"><img src="images/ws.png" alt="Contact Whats" class="imgWs"></a>
+                <a href="https://wa.me/+525561506827?text=Hola%20mi%20nombre%20es:%20"><img src="/images/ws.png" alt="Contact Whats" class="imgWs"></a>
            </picture>
         </article>
     </footer>
