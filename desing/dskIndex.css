@@ -10,6 +10,7 @@
         --backgrond-color:#0a0a23;
         --targets:#008EFF;
         --relevante:#00F8E6;
+        --titulares:'Mochiy Pop P One', sans-serif;
     }
     
     html{
@@ -34,14 +35,9 @@
     HEADER
     ----------------------------------------------------------*/
     header{
-        background-color:black;
-        background-image:
-        radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
-        radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-        radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-        radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
-        background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-        background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+        background:url(/images/bg.jpeg);
+        height:100vh;
+        background-size:100vw;
     }
     
     #NavBar-Principal{
@@ -176,7 +172,7 @@
     .principal h1{
         text-align:center;
         font-size:3rem;
-        font-weight:bold;
+        font-family:var(--titulares);
     }
     
     .principal p{
@@ -264,6 +260,7 @@ Querys CSS para Celulares
         --backgrond-color:#0a0a23;
         --targets:#008EFF;
         --relevante:#00F8E6;
+        --titulares:'Mochiy Pop P One', sans-serif;
     }
     
     html{
@@ -288,15 +285,8 @@ Querys CSS para Celulares
     HEADER - MOBIL
     ----------------------------------------------------------*/
     header{
-        background-color:black;
-        background-image:
-        radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
-        radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-        radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-        radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
-        background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-        background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
-        padding-bottom:.1rem;
+        background:var(--main-color);
+        padding-bottom:.5rem;
     }
 
     #NavBar-Principal{
@@ -387,9 +377,9 @@ Querys CSS para Celulares
     }
     
     .principal h1{
-        font-size:3rem;
-        font-weight:bold;
+        font-size:2.5rem;
         margin:0rem 3rem;
+        font-family:var(--titulares);;
     }
     
     .principal .bio{
