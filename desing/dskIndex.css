@@ -37,7 +37,8 @@
     header{
         background:url(https://elastic-leavitt-b60c86.netlify.app/images/bg.jpeg);
         height:100vh;
-        background-size:100vw;
+        background-size:100% 100%;
+        background-repeat:no-repeat;
     }
     
     #NavBar-Principal{
