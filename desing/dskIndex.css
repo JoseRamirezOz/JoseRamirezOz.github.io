@@ -35,7 +35,7 @@
     HEADER
     ----------------------------------------------------------*/
     header{
-        background:url(https://elastic-leavitt-b60c86.netlify.app/images/bg.jpeg);
+        background:url(https://galerryoz.netlify.app/imgsClean/Portada.jpg);
         height:100vh;
         background-size:100% 100%;
         background-repeat:no-repeat;
@@ -107,6 +107,8 @@
     #navbarText a{
         color:#f5f5f5;
     }
+
+
     /*-------------------------------------------------------*/
     
     .secondSection-Header{
