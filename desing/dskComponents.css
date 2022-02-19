@@ -1,16 +1,13 @@
-@media(min-width:800px){
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 :root{
     --main-color:#030318;
     --backgrond-color:#0a0a23;
     --targets:#008EFF;
-    --relevante:#00F8E6;
-    --titulares:'Mochiy Pop P One', sans-serif;
 }
 
 html{
@@ -24,18 +21,18 @@ body{
     background:var(--backgrond-color);
     color:#f5f5f5;
     overflow-x:hidden;
-    position: relative;
-    min-height:100vh;
-    padding-bottom:15rem;
 }
 
+body img{
+    width:10rem;
+    height:10rem;
+    object-fit:cover;
+}
+@media(min-width:800px){
+
 /*---------------------------------------------------------
-HEADER COMPONENT DESKTOP
+HEADER
 ----------------------------------------------------------*/
-/* header{
-
-} */
-
 #NavBar-Principal{
     background:var(--main-color);
     height:8rem;
@@ -55,23 +52,16 @@ HEADER COMPONENT DESKTOP
 }
 
 #NavBar-Principal a{
- color:#f5f5f5;
- font-size:2rem;
+    color:#f5f5f5;
+    font-size:2rem;
 }
 
 #NavBar-Principal a:hover{
     border-bottom:.3rem solid #00F8E6;
 }
 
-
 #navbarText{
     grid-column:-1;
-}
-
-#notasdev{
-    margin-bottom:.5rem;
-    width:5rem;
-    height:5rem;
 }
 
 .hero{
@@ -115,76 +105,67 @@ HEADER COMPONENT DESKTOP
     margin-left:-1.5rem;
 }
 /*---------------------------------------------------------
-SECTION MAIN COMPONENT DESKTOP
+SECCION PRINCIPAL DESKTOP
 ----------------------------------------------------------*/
 .principal{
-    text-align:center;
+    padding:1rem;
+    display:flex;
+    flex-direction:column;
+    margin-bottom:5rem;
 }
 
 h1{
-    width:30%;
-    margin:1rem auto;
-    font-family:var(--titulares);
-}
-
-.descBienvenida{
-    margin:3rem 3rem 1rem 3rem;
-    font-size:2rem;
-    background:var(--main-color);
-    padding:2rem;
-    border-radius:2rem;
-    border:dotted .1rem var(--relevante);
-}
-
-.notasJs{
-    background:var(--main-color);
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    padding:1rem 2rem;
-    margin:3rem;
-    border-radius:2rem;
-    border:dotted .1rem var(--relevante);
-}
-
-.notasJs p{
-    font-size:2rem;
-    color:white;
-    border-radius:1rem;
-    padding:1rem;
-    text-align:left;
-}
-
-.jsInfo{
-    display:flex;
-    flex-direction:column;
-}
-
-.btnNotion{
-    background:purple;
-    border-radius:1rem;
-    color:white;
-    text-decoration:none;
-    font-weight:bold;
-    display:inline-block;
-    padding:1rem;
-    margin-top:1rem;
-    width:25rem;
-    align-self:flex-end;
     text-align:center;
+    margin:2rem 5rem;
 }
 
-.btnNotion:hover{
-    padding:1.2rem;
+.card{
+    background:var(--main-color);
+    border:dashed .1rem var(--targets);
+    margin:1rem 5rem;
+    padding:1rem;
+}
+
+.card h2{
+    text-align:center;
+    margin-bottom:2rem;
+    font-size:3rem;
+}
+
+.card-cuerpo{
+    display:grid;
+    grid-template-columns:35rem 35rem 1fr;
+    grid-template-rows:1fr 1fr;
+}
+
+.card-cuerpo p {
+    font-size:2rem;
+}
+
+
+
+.card .card-cuerpo img{
+    align-self:center;
+    justify-self:center;
+    width:90%;
+    height:90%;
+    grid-row:1/-1;
+    border:dotted .1rem white;
+}
+
+.card .card-link--component{
+    background:purple;
     color:white;
-}
-
-.btnNotion img{
-    background:white;
-    width:2rem;
-    height:2rem;
-    padding:.3rem;
-    border-radius:.3rem;
+    font-size:2rem;
+    margin:0rem 5rem;
+    text-decoration:1rem;
+    align-self:center;
+    grid-column:-2;
+    grid-row:-2;
+    padding:1rem;
+    border-radius:1rem;
+    text-align:center;
+    font-weight:bold;
 }
 /*---------------------------------------------------------
 FOOTER COMPONENT DESKTOP
@@ -193,15 +174,11 @@ footer{
     font-size:2rem;
     height:auto;
     background:var(--main-color);
-    color:#f5f5f5;
     width:100vw;
-    position:absolute;
-    bottom:0;
 }
 
 .titleFooter{
     text-align:center;
-
 }
 
 .contactFooter{
@@ -223,45 +200,9 @@ footer{
 }
 }
 
-
-/*****************************************************
-******************************************************/
-
 @media(max-width:800px){
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-:root{
-    --main-color:#030318;
-    --backgrond-color:#0a0a23;
-    --targets:#008EFF;
-    --relevante:#00F8E6;
-    --titulares:'Mochiy Pop P One', sans-serif;
-}
-
-html{
-    font-size:62.5%;
-}
-
-body{
-    width:100%;
-    margin:0%;
-    font-family: 'Open Sans', sans-serif;
-    background:var(--backgrond-color);
-    color:#f5f5f5;
-    overflow-x:hidden;
-}
-
-img{
-    width:1rem;
-    height:1rem;
-}
-
 /*---------------------------------------------------------
-BARRA DE NAVEGACION
+HEADER - MOBIL
 ----------------------------------------------------------*/
 #NavBar-Principal{
     background:var(--main-color);
@@ -281,10 +222,6 @@ BARRA DE NAVEGACION
     object-fit:cover;
 }
 
-#notasdev{
-    margin-bottom:.5rem;
-}
-
 #botonNav{
     background:#f5f5f5;
 }
@@ -299,70 +236,66 @@ BARRA DE NAVEGACION
 
 
 /*---------------------------------------------------------
-SECCION MAIN
+SECCION PRINCIPAL MOBILE
 ----------------------------------------------------------*/
 h1{
     text-align:center;
-    font-size:2.5rem;
-    font-family:var(--titulares)
+    margin:2rem 1rem;
+}
+.card{
+    background:var(--main-color);
+    margin:2rem .5rem;
+    border:dashed .1rem var(--targets);
+    
 }
 
-.descBienvenida{
-    text-align:center;
-    margin:2rem 1rem;
-    font-size:1.7rem;
+.card-cuerpo{
     background:var(--main-color);
-    padding:1rem;
-    border-radius:2rem;
-    border:dashed .1rem var(--relevante);
-}
-
-
-.notasJs{
-    background:var(--main-color);
-    margin:2rem 1rem;
-    font-size:1.7rem;
-    border-radius:2rem;
-    padding:2rem;
-
     display:flex;
     flex-direction:column;
+    margin:.5rem;
     justify-content:center;
     align-items:center;
-    border:dashed .1rem var(--relevante);
+    padding:2rem;
 }
 
-.notasJs img{
-    width:10rem;
-    height:10rem;
+.card h2{
+    text-align:center;
+    margin:1rem;
+    font-size:3rem;
 }
 
-.btnNotion{
+.card-cuerpo img{
+    width:100%;
+    height:90%;
+}
+
+.card-cuerpo .viewPhone{
+    margin-top:1rem;
+    height:30rem;
+}
+
+.card-cuerpo p{
+    margin:1rem 1rem;
+    font-size:1.7rem;
+    text-align:center;
+}
+
+.card-cuerpo a {
     background:purple;
+    width:15rem;
+    text-align:center;
     color:white;
+    font-size:2rem;
+    font-weight:bold;
     padding:1rem;
     text-decoration:none;
-    display:block;
-    width:60%;
-    margin:2rem 1rem 1rem 13rem;
     border-radius:1rem;
 }
 
-.btnNotion:hover{
-    color:white;
+.card-cuerpo img{
+    border:dotted .1rem white;
 }
-
-.btnNotion img{
-    width:2rem;
-    height:2rem;
-    background:white;
-    padding:.1rem;
-    border-radius:.3rem;
-}
-
-
-
-
 /*---------------------------------------------------------
 FOOTER
 ----------------------------------------------------------*/
