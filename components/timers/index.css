@@ -22,13 +22,12 @@ body{
     background:var(--backgrond-color)  !important ;
     color:#f5f5f5;
     overflow-x:hidden;
-    scroll-behavior:smooth;
 }
 
- body img{
+/* body img{
     width:10rem;
     height:10rem;
-} 
+} */
 
 
 
@@ -104,7 +103,7 @@ HEADER COMPONENT DESKTOP
 }
 
 #navbarText{
-    grid-column: -2;
+    grid-column: -1;
     margin-right:1rem;
     font-size:2rem;
 }
@@ -116,135 +115,7 @@ HEADER COMPONENT DESKTOP
 /*---------------------------------------------------------
 PRINCIPAL COMPONENT DESKTOP
 ----------------------------------------------------------*/
-.principal {
-    color:white;
-    display:flex;
-    flex-direction:column;
-}
-.principal .titleComp{
-    color:white;
-    text-align:center;
-    font-family:var(--titulares);
-    margin-top:1rem;
-}
 
-/* INCIO Estilos Menu Hamburguesa Escritorio*/
-#btnShowMenu{
-    background:white;
-}
-
-.menuBurger{
-    margin:0rem 0rem;
-}
-
-.menuBurger ul{
-    background:var(--main-color);
-    border-radius:2rem;
-    font-size:3rem;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    width:100%;
-
-}
-
-
-
-.menuBurger li{
-    list-style:none;
-    margin:1rem 0rem;
-    display:block;
-}
-
-.menuBurger a{
-    text-decoration:none;
-    color:white;
-    font-weight:bold;
-    padding:1rem 30rem;
-    border-radius:.5rem;
-}
-
-.menuBurger a:hover{
-    color:purple;
-    font-size:3.2rem;
-}
-
-.imgBurgerMenu{
-    width:5rem;
-    height:5rem;
-}
-
-.btnShowMenu{
-    font-size:2rem;
-    padding:.5rem;
-    align-self:flex-end;
-    margin-left:1rem;
-    border:none;
-    border-radius:.5rem;
-    color:white;
-    font-weight:bold;
-}
-
-.barNav{
-    position:fixed;
-    top:1rem;
-    right:0rem;
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-end;
-    align-items:flex-end;
-}
-/*FIN Estilos Menu Hamburguesa Escritorio*/
-
-/*Otros estilos*/
-.dProyect{
-    font-size:2.5rem;
-    text-align:left;
-    margin:2rem 8rem 3rem 3rem;
-}
-
-.containPage article{
-    background:purple;
-    margin:1rem 3rem;
-    padding:1rem 10rem 100rem 10rem;
-}
-
-#seccion1{
-    background:darkred;
-}
-
-#seccion2{
-    background:hotpink;
-}
-
-
-#seccion3{
-    background:indigo;
-}
-
-
-.containPage b{
-    font-size:10rem;
-}
-
-.containPage p{
-    font-size:3rem;
-    text-align:center;
-    color:white;
-    margin-bottom:5rem;
-    font-size:4rem;
-}
-
-.containPage a{
-    background:var(--main-color);
-    font-size:5rem;
-    color:white;
-    text-decoration:none;
-    padding:2rem;
-    border-radius:1rem;
-    border:dashed .1rem var(--relevante);
-}
 
 
 /*---------------------------------------------------------
@@ -369,112 +240,8 @@ HEADER - MOBIL
 }
     
 /*---------------------------------------------------------
-P R I N C I P A L - M O B I L E
+P R I N C I P A L
 ----------------------------------------------------------*/
-.principal{
-    color:white;
-}
-
-.titleComp{
-    text-align:center;
-    font-size:2.5rem;
-    margin:1rem;
-}
-
-.dProyect{
-    font-size:1.6rem;
-    text-align:left;
-    margin:1rem;
-}
-
-/*Estilos :::mobile::: del boton tipo hamburguesa*/
-.barNav{
-    background:none;
-    padding:none;
-    display:flex;
-    flex-direction:column;
-    align-items:flex-end;
-    position:sticky;
-    top:0;
-}
-
-.btnShowMenu{
-    width:5rem;
-    height:5rem;
-    border-radius:.5rem;
-    padding:1rem;
-}
-
-.btnShowMenu img{
-    width:100%;
-    height:100%;
-}
-
-.menu{
-    background:var(--main-color);
-    width:100vw;
-    padding:1rem;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
-
-.menu li{
-    list-style:none;
-    margin:2rem 0rem;
-    text-align:center;
-}
-
-.menu a{
-    color:white;
-    font-size:3rem;
-    background:var(--main-color);
-    padding:2rem 5rem;
-    text-decoration:none;
-    border-radius:1rem;
-}
-/*Estilos :::mobile::: del boton tipo hamburguesa*/
-
-.containPage b{
-    color:white;
-    font-size:4rem;
-    text-align:right;
-}
-
-.containPage p{
-    color:white;
-    text-align:right;
-    font-size:2rem;
-}
-
-.containPage a{
-    background:var(--main-color);
-    border:dashed .1rem var(--relevante);
-    padding:1rem;
-    font-size:1.6rem;
-    color:aliceblue;
-    text-decoration:none;
-}
-
-.containPage article{
-    background:red;
-    padding:1rem 1rem 50rem 1rem;
-    margin:1rem 0rem;
-}
-
-#seccion1{
-    background:darkred;
-}
-
-#seccion2{
-    background:hotpink;
-}
-
-
-#seccion3{
-    background:indigo;
-}
-
 
 
 /*---------------------------------------------------------
@@ -516,3 +283,6 @@ FOOTER COMPONENT - M O B I L E
         
 }
 }
+
+
+

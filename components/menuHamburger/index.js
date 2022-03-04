@@ -1,5 +1,5 @@
 const $menu = document.querySelector('.menuBurger')
-const $btnShowMenu = document.querySelector('.btnShowMenu')
+const $btnShowMenu = document.getElementById('btnShowMenu')
 
 
 const createMenu = `
