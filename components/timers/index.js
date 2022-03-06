@@ -221,5 +221,4 @@ btnB.addEventListener("click", ()=>{
 
 
 
-const alarma = 10000
 
