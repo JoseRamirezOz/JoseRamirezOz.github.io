@@ -34,6 +34,14 @@ body img{
 /*---------------------------------------------------------
 HEADER
 ----------------------------------------------------------*/
+h5{
+    text-align:center;
+    background:#84FF71;
+    color:#156A18;
+    font-weight: bold;
+    padding:1rem;
+    margin-bottom:-.1rem;
+}
 header{
     background:url(https://galerryoz.netlify.app/imgsClean/Portada.jpg);
     height:100vh;
