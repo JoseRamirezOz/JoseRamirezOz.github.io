@@ -35,7 +35,7 @@ body img{
 HEADER
 ----------------------------------------------------------*/
 header{
-    background:url(https://galerryoz.netlify.app/imgsClean/Portada.jpg);
+    background:#581845;
     height:100vh;
     background-size:100% 100%;
     background-repeat:no-repeat;
@@ -142,9 +142,10 @@ header{
 }
 
 .fotoDePerfil{
-    width:15rem;
-    height:15rem;
+    width:18rem;
+    height:18rem;
     object-fit:cover;
+    border-radius:50%;
 }
 
 .presentacion p{
@@ -452,7 +453,9 @@ SECCION
     margin-right:.3rem;
 }
 
-
+.tailwind{
+    background:white;
+}
 
 
 
