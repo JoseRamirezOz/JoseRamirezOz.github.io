@@ -35,10 +35,11 @@ body img{
 HEADER
 ----------------------------------------------------------*/
 header{
-    background:#581845;
+    background:url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
     height:100vh;
-    background-size:100% 100%;
-    background-repeat:no-repeat;
+    /* background-size:100% 100%;
+    background-repeat:no-repeat; */
+    color:black;
 }
 
 #NavBar-Principal{
